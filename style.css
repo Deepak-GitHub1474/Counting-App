@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, transparent, #3ebce7), url("./Photos/station-img.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    line-height: 70px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#count-enter, #count-exit{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+button{
+    width: 8rem;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+
+#increment-btn, #decrement-btn{
+    background-color: #d53030;
+}
+
+#save-entry-btn, #save-exit-btn{
+    background-color: #30d53e;
+}
